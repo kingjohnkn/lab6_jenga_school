@@ -4,7 +4,6 @@ def valid_password():
     print("Enter a password with more than 10 characters.")
     password = input("> ")
     
-    
     while len(password) < 10:
         print("INVALID! Password has to have more than 10 characters")
         password = input("\nEnter password: ")
